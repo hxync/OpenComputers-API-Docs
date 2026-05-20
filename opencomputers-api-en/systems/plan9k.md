@@ -1,0 +1,128 @@
+# plan9k
+
+## Summary
+
+The `plan9k` system groups bundled Lua assets, commands, manuals, and support files discovered during the source audit.
+
+## Inventory
+
+- Libraries: 49
+- Commands: 56
+- Manuals: 1
+- Internal modules: 1
+- Examples: 0
+
+## Source Files
+
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\.prop`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\cat.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\clear.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\components.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\cp.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\dd.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\df.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\dmesg.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\du.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\echo.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\edit.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\find.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\getty.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\hostname.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\init.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\install.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\kill.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\label.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\ln.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\ls.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\lua.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\mkdir.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\more.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\mount.cow.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\mount.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\mount.msdos.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\mv.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\passwd.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\pastebin.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\ps.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\pwd.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\rc.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\readkey.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\reboot.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\resolution.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\rm.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\sandbox.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\sh.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\shutdown.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\sleep.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\sshd.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\tee.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\touch.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\uptime.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\watch.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\wc.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\bin\wget.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\boot\kernel\pipes`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\etc\rc.d\autoupdate.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\etc\rc.d\sshd.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\init.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\colors.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\event.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\internet.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\01_gc.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\01_util.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\02_cmd.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\05_vfs.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\06_cowfs.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\09_rootfs.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\10_devfs.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\10_procfs.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\10_sysfs.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\11_block.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\12_mount.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\15_keventd.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\15_userspace.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\16_buffer.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\16_component.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\16_partition.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\16_require.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\17_chatbox.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\17_data.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\17_drive.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\17_eeprom.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\17_gpt.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\17_io.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\17_ipc.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\17_keyboard.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\17_nfc.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\17_tape.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\18_pty.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\18_syscall.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\19_cgroups.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\19_manageg.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\20_threading.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\21_threadUtil.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\21_timer.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\modules\base\25_init.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\msdosfs.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\rc.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\serialization.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\shell.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\sides.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\term.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\lib\text.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\usr\bin\base64.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\usr\bin\deflate.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\usr\bin\go.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\usr\bin\gpg.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\usr\bin\inflate.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\usr\bin\md5sum.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\usr\bin\mkdosfs.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\usr\bin\mpt.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\usr\bin\sha256sum.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\usr\bin\ssh.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\usr\lib\data.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\usr\lib\robot.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\usr\man\pipes`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\usr\sbin\sshsession.lua`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\var\lib\mpt\config.db`
+- `OpenComputers/src\main\resources\assets\opencomputers\loot\plan9k\var\lib\mpt\mpt.db`
